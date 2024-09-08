@@ -1,0 +1,180 @@
+@import url('reset.css');
+@import url('fonts.css');
+@import url('header.css');
+
+:root {
+	/* COLORS */
+	--white-color: #fff;
+	--light-gray-color: #fbfaf7;
+	--black-color: #000;
+	--green-color: #198c36;
+	--dark-green-color: #163a24;
+	--beige-pink-color: #fab5a0;
+	--gray-color: #f2efe6;
+
+	/* FONTS */
+	--font-noto-sans: 'Noto Sans', sans-serif;
+	--font-recoleta: 'Recoleta', sans-serif;
+}
+
+body {
+	font-family: var(--font-noto-sans);
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+.recolete-text {
+	font-size: 48px;
+	font-family: var(--font-recoleta);
+	color: var(--dark-green-color);
+	margin-bottom: 27px;
+}
+.border-line {
+	border-bottom: 1px solid var(--light-gray-color);
+}
+.mx-400 {
+	max-width: 400px;
+}
+.mx-740 {
+	max-width: 740px;
+}
+.recolete-text_tac {
+	text-align: center;
+}
+.recolete-text_fz {
+	font-size: 28px !important;
+	line-height: 1.1;
+}
+.recolete-text_mb {
+	margin-bottom: 66px;
+}
+.subtitle {
+	color: var(--dark-green-color);
+	font-size: 18px;
+	max-width: 380px;
+}
+.btn {
+	color: var(--light-gray-color);
+	padding: 15px 25px;
+	background-color: var(--green-color);
+	border-radius: 160px;
+	border: none;
+	cursor: pointer;
+}
+
+.subblock {
+	color: var(--light-gray-color);
+	margin-bottom: 120px;
+	background-color: var(--dark-green-color);
+}
+
+.subblock .container {
+	display: flex;
+	align-items: center;
+}
+.subblock__inner {
+	margin-right: 17px;
+}
+.subblock__title {
+	max-width: 400px;
+	margin-bottom: 18px;
+	color: var(--light-gray-color);
+}
+
+.subblock__subtitle {
+	font-size: 18px;
+	max-width: 475px;
+}
+
+/* human back in hr */
+
+.human-back {
+	margin-bottom: 13px;
+}
+.human-back .container {
+	display: flex;
+	gap: 100px;
+	align-items: center;
+}
+/* play-parts  */
+.play-parts {
+	margin-bottom: 113px;
+}
+.play-parts .container {
+	display: flex;
+	gap: 116px;
+	align-items: center;
+}
+
+.play-parts__inner {
+	max-width: 400px;
+}
+/* partners */
+.partners {
+	margin-bottom: 120px;
+}
+.partners__inner {
+	display: flex;
+	gap: 88px;
+	justify-content: center;
+}
+
+/* hr production  */
+
+.hr-production {
+	padding-top: 66px;
+	padding-bottom: 120px;
+	h2 {
+		color: var(--light-gray-color);
+	}
+	color: var(--light-gray-color);
+	background-color: var(--dark-green-color);
+}
+
+.production {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+
+	article {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+
+		img {
+			margin-bottom: 28px;
+			width: 70px;
+		}
+
+		p {
+			text-align: center;
+		}
+	}
+}
+
+/* employees */
+
+.employees {
+	background-color: var(--gray-color);
+	padding: 120px 0;
+
+	.container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	p {
+		color: var(--dark-green-color);
+		text-align: center;
+		max-width: 760px;
+		font-size: 18px;
+		margin-bottom: 2px;
+	}
+}
